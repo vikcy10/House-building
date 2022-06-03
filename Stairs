@@ -1,0 +1,30 @@
+player.onChat("stairs", function () {
+player.say("placing a block");
+// start at the bottom 
+// place two blocks
+
+blocks.place(STONE, pos(1, 0, 0));
+blocks.place(STONE, pos(2, 0, 0));
+
+blocks.place(STONE, pos(2, 1, 0));
+blocks.place(STONE, pos(3, 1, 0));
+
+blocks.place(STONE, pos(3, 2, 0));
+blocks.place(STONE, pos(4, 2, 0));
+
+blocks.place(STONE, pos(4, 3, 0));
+blocks.place(STONE, pos(5, 3, 0));
+
+blocks.place(STONE, pos(5, 4, 0));
+blocks.place(STONE, pos(6, 4, 0));
+
+blocks.place(STONE, pos(6, 5, 0));
+blocks.place(STONE, pos(7, 5, 0));
+
+
+})
+
+player.onChat("jump", function() {
+    player.say('hello worlf');
+})
+
